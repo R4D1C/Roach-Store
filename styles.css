@@ -1,0 +1,144 @@
+*, ::after, ::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #DDDBC4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+img {
+    height: 120px;
+    margin-left: 20vh;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+#logo {
+    display: flex;
+}
+
+#logo h1 {
+    margin-top: 5vh;
+    margin-left: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 2vh;
+    padding: 2vh;
+}
+
+li {
+    padding: 2rem;
+    
+    
+}
+
+li a {
+    padding: 1.5rem 3rem;
+    border-radius: .5rem;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: auto 0;
+    color: black;
+}
+main {
+    display: grid;
+    grid-template-columns: minmax(2rem, 1fr) minmax(min-content, 94rem) minmax(2rem, 1fr);
+    row-gap: 3rem;
+    margin-top: 20vh;
+}
+
+#form {
+    grid-column: 2 / 3;
+    justify-self: center;
+}
+
+span {
+    color: rgb(173, 85, 44);
+    font-weight: 800;
+    text-shadow: 1px 1px 2px rgb(88, 57, 57);
+}
+
+#video {
+    grid-column: 2 / 3;
+    justify-self: center;
+}
+
+#price {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column: 2 / 3;
+    column-gap: 3rem;
+    margin-top: 14rem;
+}
+
+#price ul {
+    display: block;
+    list-style-type:initial;
+    margin-top: 0;
+}
+
+#price span {
+    color: azure;
+}
+
+#price h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+#price h3 {
+    font-size: 20px;
+    margin: 20px 0 0 20px;
+}
+
+#sub-price1, #sub-price2, #sub-price3 {
+    width: 35rem;
+    height: 60rem;
+    background-color: rgb(173, 85, 44);
+    justify-self: center;
+    border-radius: 2rem;
+}
+
+#sub-price1, #sub-price2, #sub-price3 li {
+    font-size: 18px;
+    
+}
+
+#mount {
+    display: grid;
+}
+
+#mount a {
+    margin-top: -20px;
+    padding: 2rem 4rem;
+    background-color: rgb(207, 204, 11);
+    justify-self: center;
+    border-radius: 5px;
+}
+
+#sub-price3 a {
+    font-size: 18px;
+}
