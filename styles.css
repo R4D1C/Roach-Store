@@ -131,6 +131,8 @@ span {
 
 #price li {
     color: rgb(219, 219, 219);
+    font-size: 18px;
+    margin-top: -10px;
 }
 
 #price span {
